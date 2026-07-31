@@ -1,0 +1,58 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell
+*.ps1xml
+*.clixml
+*.pssc
+*.psrc
+*.pfx
+*.cer
+*.key
+
+# Credentials and secrets
+*.password
+*.secret
+*.secrets
+credentials*
+secrets*
+.env
+.env.*
+!.env.example
+
+# SQL Server database and backup files
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+
+# SQL Server setup and logs
+SQLSetup/
+*.log
+
+# Virtual machines and disks
+*.vhd
+*.vhdx
+*.avhd
+*.avhdx
+*.vmcx
+*.vmrs
+*.vmgs
+*.iso
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.swp
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system and application installers
+*.exe
+*.msi
